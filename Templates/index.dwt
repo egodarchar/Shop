@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta name="keywords" content="artist and a designer from Sri Lanka ,pencil art , pencilarts, pencil arts, arts, drawings, realistic drawings, pencil drawings, sketching, protarits,  pencilarts.lk charith Ekanayake , art collection, gallary, draw, real drawings, free art, ">
+<meta name="description" content="pencil arts.lk By Charith Ekanayake" content="Charith ekanayake is an artist and a designer from Sri Lanka ,pencilarts, pencil arts, arts, drawings, realistic drawings, pencil drawings, sketching,Sri lankan protarits website">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>All about pencil drawings - Pencil Art, Pencil Drawings, Pencil sketches, Drawings, pencil arts , pencilarts.lk By Charith Ekanayake</title>
+<!-- TemplateEndEditable -->
+<LINK REL="SHORTCUT ICON" HREF="../images/favicon.ico"/>
+ <script src="../css/pencil arts new site_files/ga.js" async="" type="text/javascript"></script><script src="../css/pencil arts new site_files/a" type="text/javascript" async=""></script><script src="../css/pencil arts new site_files/tc.js" type="text/javascript" async=""></script><script language="javascript">
+//home page script --------------------------------------------------------
+	function setHomepage()
+	{
+ 	if (document.all)
+    {
+    document.body.style.behavior='url(#default#homepage)';
+  	document.body.setHomePage('http://pencilarts.lk');
+    }
+    else 
+	if (window.sidebar)
+    {
+    if(window.netscape)
+    {
+    try
+   	{  
+    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");  
+    }  
+    catch(e)  
+    {  
+    alert("this action was aviod by your browser，if you want to enable，please enter about:config in your address line,and change the value of signed.applets.codebase_principal_support to true");  
+    }
+    } 
+    var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components. interfaces.nsIPrefBranch);
+    prefs.setCharPref('browser.startup.homepage','http://pencilarts.lk');
+ 	}
+	}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+ </script>
+<style>
+.font {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+}
+.font02 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.font03 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #F00;
+}
+a:link {
+	text-decoration: none;
+	color: #333;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #F00;
+}
+a:active {
+	text-decoration: none;
+	font-size: 12px;
+	text-align: center;
+}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>All about pencil drawings - Pencil Art, Pencil Drawings</title>
+
+<link href="../css/pencil arts.lk, new site_files/style.css" rel="stylesheet" type="text/css">
+</style>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	left:314px;
+	top:401px;
+	width:18px;
+	height:17px;
+	z-index:1;
+}
+body {
+	background-color: #CDCDCD;
+}
+#apDiv2 {
+	position:absolute;
+	left:377px;
+	top:376px;
+	width:428px;
+	height:250px;
+	z-index:1;
+	overflow: auto;
+}
+#wrraper #body #main_outer #header #header_bottom #header_bottom_links_left #header_bottom2 #header_bottom_links_left2 span span {
+	color: #333;
+}
+#wrraper #body #main_outer #module_950_auto a #home {
+	text-align: center;
+}
+#wrraper #body #main_outer #module_950_auto a #contact {
+	text-align: center;
+}
+#header #header_bottom #header_bottom_links_right a {
+	font-size: 12px;
+}
+-->
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21354725-1']);
+  _gaq.push(['_setDomainName', 'pencilarts.lk']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body onload="MM_preloadImages('../images/Menubuttons/homeup.png','../images/Menubuttons/Homeover.png','../images/Menubuttons/latestdrawingsup.png','../images/Menubuttons/latestdrawingover.png','../images/Menubuttons/Pricingup.png','../images/Menubuttons/pricingover.png','../images/Menubuttons/contactup.png','../images/Menubuttons/contactover.png')">
+<div id="tyntPrint"></div>
+	<div id="wrraper">
+    	<div id="body">
+    	  <div id="main_outer">
+<div id="top_banners"></div>
+                <div id="header">
+               	  <div id="header_left">
+                  </div>
+      <div id="header_right">
+                    	<div id="header_add"></div>
+          <div id="header_online">
+          <iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fpencilarts.co.nz&width=52&layout=button&action=like&size=small&show_faces=false&share=false&height=65&appId=237659780286207" width="52" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <p>&nbsp;</p>
+          </div>
+          <div id="header_fb">
+            <p><a href="http://www.pencilarts.lk/" class="style1" rel="sidebar" title="pencilarts" onclick="if(document.all &amp;&amp;
+							!window.opera){ window.external.AddFavorite(location.href, 'Pencilarts.lk');
+							return false; }else{ this.title = 'pencilarts.lk'; }">Bookmark Pencilarts</a></p>
+            <p>&nbsp;</p>
+          </div>
+          <div id="header_middle_links_box">
+       	    <div style="width:60px; height:20px; float:left; text-align:right;"></div>
+                            <div style="width:140px; height:20px; float:left; text-align:right;">
+                            <a href="http://www.pencilarts.lk/" class="style1" rel="sidebar" title="pencilarts.lk" onclick="if(document.all &amp;&amp;
+							!window.opera){ window.external.AddFavorite(location.href, 'pencilarts.lk');
+							return false; }else{ this.title = 'pencilarts.lk'; }"></a>
+</div>
+                            <div style="width:200px; height:20px; float:left; padding-left:8px;"><a href="http://www.pencilarts.lk/" class="style1" rel="sidebar" title="pencilarts.lk" onclick="if(document.all &amp;&amp;
+							!window.opera){ window.external.AddFavorite(location.href, 'pencilarts.lk');
+							return false; }else{ this.title = 'pencilarts.lk'; }"></a></div>
+          </div>
+                  </div>
+                <div id="header_bottom">
+                    	<div id="header_bottom_links_left">
+                    	  <div id="header_bottom2">
+                    	    <div id="header_bottom_links_left2"> <span style="font-size: 12px"><span style="font-family:Verdana, Geneva, sans-serif; font-size:12px;"><a href="../order.html">OrderNow</a> | <a href="../Videos.html" target="_blank">Art Videos</a> | <a href="http://www.pencilarts.co.nz/search/label/How%20to%20Draw#.W5ZcTvaxXcd" target="_blank">Learn to Draw </a>| <a href="http://www.youtube.com/pencilartslk" target="_blank">Youtube Channel</a></span></span></div>
+                    	    <div id="header_bottom_links_right2"></div>
+                  	    </div>
+                    	</div>
+                    	<div id="header_bottom_links_right"><a href="http://pencilartslk.blogspot.com/" target="_blank"> Pencilarts.lk Sinhala Blog</a> l   <a href="http://srilankanpencilart.blogspot.com/" target="_blank"> Pencilarts.lk English Blog</a> | <a href="../login.html" target="_parent">Login</a></div>
+                  </div>
+                </div>
+            <div id="breaking_news">
+              <marquee behavior="scroll" direction="left" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" scrolldelay="1">
+              </marquee>
+              <a href="../index.html" target="_top" onclick="MM_nbGroup('down','group1','home','images/Menubuttons/homeup.png',1)" onmouseover="MM_nbGroup('over','home','images/Menubuttons/Homeover.png','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/Menubuttons/homeup.png" alt="Home" name="home" width="140" height="45" border="0" id="home" onload="MM_nbGroup('init','group1','home','images/Menubuttons/homeup.png',1)" /></a><a href="../latestdrawings.html" target="_top" onclick="MM_nbGroup('down','group1','latestdrawings','images/Menubuttons/latestdrawingsup.png',1)" onmouseover="MM_nbGroup('over','latestdrawings','images/Menubuttons/latestdrawingover.png','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/Menubuttons/latestdrawingsup.png" alt="Latest Drawings" name="latestdrawings" width="140" height="45" border="0" id="latestdrawings" onload="MM_nbGroup('init','group1','latestdrawings','images/Menubuttons/latestdrawingsup.png',1)" /></a><a href="../pricing.html" target="_top" onclick="MM_nbGroup('down','group1','Pricing','images/Menubuttons/Pricingup.png',1)" onmouseover="MM_nbGroup('over','Pricing','images/Menubuttons/pricingover.png','',1)" onmouseout="MM_nbGroup('out')"><img src="../images/Menubuttons/Pricingup.png" alt="Pricing" name="Pricing" width="140" height="45" border="0" id="Pricing" onload="MM_nbGroup('init','group1','Pricing','images/Menubuttons/Pricingup.png',1)" /></a><a href="../contact.html" target="_top" onclick="MM_nbGroup('down','group1','contact','images/Menubuttons/contactup.png',1)" onmouseover="MM_nbGroup('over','contact','images/Menubuttons/contactover.png','',1)" onmouseout="MM_nbGroup('out')"> <img src="../images/Menubuttons/contactup.png" alt="contact" name="contact" width="140" height="45" border="0" id="contact" onload="MM_nbGroup('init','group1','contact','images/Menubuttons/contactup.png',1)" /></a></div>
+              <div id="module_950_auto"></div>
+              <div id="module_950_auto_02">
+                  <div id="main_links"><a href="../photos.html"><img src="../images/pics.gif" width="156" height="40" alt="pencil arts pictures Done" /></a></div>
+                <div id="main_links"><a href="../Videos.html"><img src="../images/videos.gif" width="156" height="40" alt="pencil art videos" /></a></div>
+                <div id="main_links"><a href="http://www.pencilarts.co.nz/2014/12/latest-orders-pencilartslk-pencil-art.html"><img src="../images/artoftheday.gif" width="156" height="40" alt="art of the day" /></a></div>
+                <div id="main_links"><a href="http://pencilartslk.blogspot.com/" target="_blank"><img src="../images/sinhalablog.gif" width="156" height="40" alt="sinhala blog" /></a></div>
+        <div id="main_links"><a href="http://srilankanpencilart.blogspot.com/" target="_blank"><img src="../images/englishblog.gif" width="156" height="40" alt="english blog" /></a></div>
+        <div id="main_links"><a href="http://charith.pencilarts.lk" target="_blank"><img src="../images/charithekanayake.gif" width="156" height="40" alt="Pencil artist charith ekanayake" /></a></div>
+                <div id="main_links"><a href="../order.html"><img src="../images/ordernow.gif" width="156" height="40" alt="Order now" /></a></div>
+                <div id="landadddates3"></div>
+<div id="main_links"><a href="http://www.youtube.com/pencilartslk" target="_blank"><img src="../images/youtubesubscribenow.gif" width="156" height="40" alt="subscribe now pencil artslk" /></a></div>
+<div id="main_links"><a href="http://www.pencilarts.co.nz/search/label/How to Draw" target="_blank"><img src="../images/drawingtips.gif" width="156" height="40" alt="Drawing tips learn to draw" /></a></div>
+<div id="main_links"><a href="http://www.pencilarts.co.nz" class="style1" rel="sidebar" title="pencilarts.lk" onclick="if(document.all &amp;&amp;
+							!window.opera){ window.external.AddFavorite(location.href, 'Pencilarts.lk');
+							return false; }else{ this.title = 'pencilarts.lk'; }"><img src="../images/bookmarkpencilart.gif" width="156" height="40" alt="bookmark us" /></a></div>
+<div id="main_links"><a href="http://twitter.com/pencilartslk" target="_blank"><img src="../images/twitter.gif" width="156" height="40" alt="follow pencilarts.lk twitter" /></a></div>
+                <div id="main_links"><a href="http://www.facebook.com/pencilarts.co.nz"><img src="../images/becomefanfreepencilart.gif" alt="free pencil art like now" width="156" height="40" /></a></div>
+              </div>
+<div id="module_01">
+  <div id="module_01_left">
+          <div id="english_articles</div>
+          <div id="module_01_left_banner_01">
+            
+                
+                <!-- New Area -->
+<h1><!-- TemplateBeginEditable name="MainContent" -->MainContent<!-- TemplateEndEditable --></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+ <div id="newarea" align="justify">
+   <div id="newarea_menu">
+   <div id="newarea_menu_left"></div>
+     <div id="newarea_menu_left"></div>
+        <div id="newarea_menu_midd"><a href="http://www.pencilarts.lk/" class="style1" rel="sidebar" title="pencilarts.lk" onclick="if(document.all &amp;&amp;
+							!window.opera){ window.external.AddFavorite(location.href, 'Pencilarts.lk');
+							return false; }else{ this.title = 'pencilarts.lk'; }"><img src="../images/Adlinksfooter_bookmark.gif" width="145" height="60" alt="bookmarkus" /></a><a href="http://www.pencilarts.co.nz/2011/09/7-drawing-tips-for-beginners-learn-how.html" target="_blank"><img src="../images/Adlinksfooter_drawingtips.gif" width="145" height="60" alt="tps" /></a><a href="http://www.facebook.com/pencilarts.co.nz" target="_blank"><img src="../images/Adlinksfooter_FB.gif" width="145" height="60" alt="Fb" /></a><a href="http://twitter.com/pencilartslk" target="_blank"><img src="../images/Adlinksfooter_twitter.gif" width="145" height="60" alt="twitter" /></a><a href="http://www.youtube.com/pencilartslk" target="_blank"><img src="../images/Adlinksfooter_video.gif" width="145" height="60" alt="video" /></a><a href="../latestdrawings.html"><img src="../images/Adlinksfooter_drawings.gif" width="145" height="60" alt="latest" /></a></div>
+        <div id="newarea_menu_right"></div>
+    </div>
+ </div>
+ <!-- New Area -->
+          </div>
+            <div id="f_box">
+            	<div id="f_box_links" align="center">
+                  <p><span style="font-family:Verdana, Geneva, sans-serif; font-size:12px;"><a class="style4" href="../index.html">Home </a>l<a class="style4" href="http://www.flixya.com/user/Pencilartslk"> Arts </a>l<a class="style4" href="../Videos.html"> Art Videos </a>l <a class="style4" href="http://www.pencilarts.co.nz/2014/12/latest-orders-pencilartslk-pencil-art.html#.W5ZdD_axXcd">Art of the Day </a>l <a class="style4" href="http://pencilartslk.blogspot.com/">Sinhala Blog </a>l <a class="style4" href="http://srilankanpencilart.blogspot.com/">English Blog</a> l<a class="style4" href="http://www.youtube.com/pencilartslk"> Youtube Channel</a></span><span style="font-family:Verdana, Geneva, sans-serif; font-size:12px;"> l <a class="style4" href="http://www.pencilarts.co.nz/search/label/How to Draw">Learn to Draw</a> l <a class="style4" href="../pricing.html">Pricing  </a>l</span><span style="font-family:Verdana, Geneva, sans-serif; font-size:12px;"><a class="style4" href="../order.html"> Order Now </a></span></p>
+</div>
+                <p>&nbsp;</p>
+                <div id="f_box_text" align="center">
+                  <p><br>
+</p>
+<p><script src="http://cdn.wibiya.com/Toolbars/dir_0791/Toolbar_791797/Loader_791797.js" type="text/javascript"></script><noscript></noscript>
+Pencilarts.lk &copy; 2018 CJ Ekanayake <br>
+				  </p>
+</div>
+                <div id="f_box_end">
+                </div>
+            </div>
+        </div>
+</div>
+</body></html>

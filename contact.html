@@ -272,145 +272,70 @@ body {
                 <!-- New Area -->
 <h1><!-- InstanceBeginEditable name="MainContent" -->
               <div id="module_02_banners"><div style="width:430px; float:left; height:auto;">
-              
-                <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '279865152627',
-          cookie     : true,
-          xfbml      : true,
-          version    : 'v3.1'
-        });
-
-        FB.getLoginStatus(function(response) {
-            statusChangeCallback(response);
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-
-       function statusChangeCallback(response){
-         if(response.status === 'connected'){
-           console.log('Logged in and authenticated');
-           setElements(true);
-           testAPI();
-         } else {
-           console.log('Not authenticated');
-           setElements(false);
-         }
-       }
-
-      function checkLoginState() {
-        FB.getLoginStatus(function(response) {
-          statusChangeCallback(response);
-        });
-      }
-
-      function testAPI(){
-        FB.api('/me?fields=name,email,birthday,location', function(response){
-          if(response && !response.error){
-            //console.log(response);
-            buildProfile(response);
-          }
-
-          FB.api('/me/feed', function(response){
-            if(response && !response.error){
-              buildFeed(response);
-            }
-          });
-        })
-      }
-
-      function buildProfile(user){
-        let profile = `
-          <h3>${user.name}</h3>
-          <ul class="list-group">
-            <li class="list-group-item">User ID: ${user.id}</li>
-            <li class="list-group-item">Email: ${user.email}</li>
-            <li class="list-group-item">Birthday: ${user.birthday}</li>
-            <li class="list-group-item">Location: ${user.location.name}</li>
-           
-          </ul>
-        `;
-
-        document.getElementById('profile').innerHTML = profile;
-      }
-
-      function buildFeed(feed){
-        let output = '<h3>Latest Posts</h3>';
-        for(let i in feed.data){
-          if(feed.data[i].message){
-            output += `
-              <div class="well">
-                ${feed.data[i].message} <span>${feed.data[i].created_time}</span>
-              </div>
-            `;
-          }
-        }
-
-        document.getElementById('feed').innerHTML = output;
-      }
-
-      function setElements(isLoggedIn){
-        if(isLoggedIn){
-          document.getElementById('logout').style.display = 'block';
-          document.getElementById('profile').style.display = 'block';
-          document.getElementById('feed').style.display = 'block';
-          document.getElementById('fb-btn').style.display = 'none';
-          document.getElementById('heading').style.display = 'none';
-        } else {
-          document.getElementById('logout').style.display = 'none';
-          document.getElementById('profile').style.display = 'none';
-          document.getElementById('feed').style.display = 'none';
-          document.getElementById('fb-btn').style.display = 'block';
-          document.getElementById('heading').style.display = 'block';
-        }
-      }
-
-      function logout(){
-        FB.logout(function(response){
-          setElements(false);
-        });
-      }
-    </script>
-
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          
-          <a class="navbar-brand" href="#">Welcome To Pencilarts</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
-            <fb:login-button
-              id="fb-btn"
-              scope="public_profile,email,user_birthday,user_location,user_posts"
-
-              onlogin="checkLoginState();">
-            </fb:login-button>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container">
-      <h3 id="heading">Log in to view your profile</h3>
-      <div id="profile"></div>
-      <div id="feed"></div>
-    </div>
-              
-              
-              </div><div style="width:515px; float:right; height:auto;"></div></div>
+                <table width="950" border="0" cellpadding="2" cellspacing="0" bgcolor="#799B5E" style="text-align:left;">
+                  <tr>
+                    <td colspan="2"><font face="Verdana" size="2" color="#000000"><b style="font-size:20px; text-align: center;">Welcome To Pencil Arts.lk</b><br />
+                      <label style="font-size:15px;"><span style="text-align: left"></span><span style="text-align: center"></span>all about pencil drawings...<br />
+                      </label>
+                      <br />
+                    </font></td>
+                  </tr>
+                  <tr valign="top">
+                    <td width="85" align="left" id="td_element_label_0" style="text-align: center"><font face="Verdana" size="2" color="#000000"><b>Name</b></font> <span style="color:red;"><small>*</small></span></td>
+                    <td width="853" id="td_element_field_0" style="text-align: left"><table cellpadding='0' cellspacing='0' border='0'>
+                      <tr>
+                        <td align='center' style='padding-left:0;padding-right:3px;'><input style='width:60px;' value='' id='element_0_2' name='element_0[]' type='text' class='validate[required]' />
+                          <br />
+                          <font face="Verdana" size="2" color="#000000">First</font></td>
+                        <td align='center' style='padding-left:0;'><span style="text-align: center"></span>
+                          <input style='width:100px;' value='' id='element_0_3' name='element_0[]' type='text' class='validate[required]' />
+                          <br />
+                          <font face="Verdana" size="2" color="#000000">Last</font></td>
+                      </tr>
+                    </table>
+                      <p>&nbsp;</p>
+                      <div style="padding-bottom:8px;color:#000000;"></div></td>
+                  </tr>
+                  <tr valign="top">
+                    <td id="td_element_label_1" style="text-align: center" align="left"><font face="Verdana" size="2" color="#000000"><b>Email</b></font> <span style="color:red;"><small>*</small></span></td>
+                    <td id="td_element_field_1" style="text-align: left"><input id="element_1" name="element_1" class="validate[required,custom[email]]" value="" size="30" type="text" />
+                      <div style="padding-bottom:8px;color:#000000;"></div></td>
+                  </tr>
+                  <tr valign="top">
+                    <td id="td_element_label_2" style="text-align: center" align="left"><font face="Verdana" size="2" color="#000000"><b>Website</b></font></td>
+                    <td id="td_element_field_2" style="text-align: left"><input id="element_2" name="element_2" class="validate[optional,funcCall[url_ex,optional]]" value="http://" size="30" type="text" />
+                      <div style="padding-bottom:8px;color:#000000;"></div></td>
+                  </tr>
+                  <tr valign="top">
+                    <td id="td_element_label_3" style="text-align: center" align="left"><font face="Verdana" size="2" color="#000000"><b>Your Ideas</b></font> <span style="color:red;"><small>*</small></span></td>
+                    <td id="td_element_field_3" style="text-align: left"><textarea id="element_3" name="element_3" cols="50" rows="12" class="validate[required]">
+                </textarea>
+                      <div style="padding-bottom:8px;color:#000000;"></div></td>
+                  </tr>
+                  <tr style="text-align: center">
+                    <td colspan="2"><table cellpadding="5" cellspacing="0" bgcolor="#E4F8E4" width="100%">
+                      <tr bgcolor="#AAD6AA">
+                        <td colspan="2"><font color="#FFFFFF" face="Verdana" size="2"><b>Image Verification</b></font></td>
+                      </tr>
+                      <tr>
+                        <td style="padding:2px; width:100px;"><img id="captcha_image" src="http://www.emailmeform.com/builder/captcha/index/2d8dda7075487548cc57f90fb51d2c52" alt="captcha" name="captcha_image" /></td>
+                        <td valign="top"><div> <font color="#000000">Please enter the text from the image</font>:<br />
+                          <input type="text" id="captcha_code" name="captcha_code" maxlength="10" size="10" class="validate[required,funcCall[valid_captcha]]" />
+                          [<a id="captcha_code_refresh" href=
+                "javascript:void(0);" onclick="document.getElementById('captcha_image').src = 'http://www.emailmeform.com/builder/captcha/index/'+Math.random();get_valid_captcha();return false;"
+                name="captcha_code_refresh">Refresh Image</a>] [<a id="captcha_code_about" href="javascript:void(0);" onclick=
+                "window.open('http://www.emailmeform.com/captcha-instruction.html','_blank','width=400, height=500, left=' + (screen.width-450) + ', top=100');return false;" name=
+                "captcha_code_about">What's This?</a>] </div></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr style="text-align: center">
+                    <td colspan="2" align="center"><input name="element_counts" value="4" type="hidden" />
+                      <input name="embed" value="forms" type="hidden" />
+                      <input value="Submit" type="submit" /></td>
+                  </tr>
+                </table>
+              </div></div>
               <div id="module_02_banners"><link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" />
 <link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/theme_css/Azc5IS0e94mebc5gwvcJep" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
@@ -428,7 +353,11 @@ if (typeof $.ui == 'undefined'){
 <script type="text/javascript" src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
 <form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Azc5IS0e94mebc5gwvcJep" name="emf-form">
 </form><br />
-<div style="text-align:left"></div><script type="text/javascript">
+<div style="text-align:left">
+  <font face="Verdana" size="2" color="#000000">Powered by</font><span style="position: relative; padding-left: 3px; bottom: -5px;"><img src=
+  "http://www.emailmeform.com/builder/images/footer-logo.png" /></span><font face="Verdana" size="2" color="#000000">EMF</font> <a style="text-decoration:none;" href="http://www.emailmeform.com/"
+  target="_blank"><font face="Verdana" size="2" color="#000000">Web Form</font></a><br />
+</div><script type="text/javascript">
 //<![CDATA[
 var EMF_Safari_Captcha = (function(){
         this.isChrome = (/chrome/.test(navigator.userAgent.toLowerCase()));

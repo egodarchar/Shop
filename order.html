@@ -3,7 +3,7 @@
 <meta name="keywords" content="artist and a designer from Sri Lanka ,pencil art , pencilarts, pencil arts, arts, drawings, realistic drawings, pencil drawings, sketching, protarits,  pencilarts.lk charith Ekanayake , art collection, gallary, draw, real drawings, free art, ">
 <meta name="description" content="pencil arts.lk By Charith Ekanayake" content="Charith ekanayake is an artist and a designer from Sri Lanka ,pencilarts, pencil arts, arts, drawings, realistic drawings, pencil drawings, sketching,Sri lankan protarits website">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Contact Pencilarts.lk - All about pencil drawings - Pencil Art, Pencil Drawings, Pencil sketches, Drawings, pencil arts ,  pencilarts.lk By Charith Ekanayake</title>
+<title>Order Now - All about pencil drawings - Pencil Art, Pencil Drawings, Pencil sketches, Drawings, pencil arts ,  pencilarts.lk By Charith Ekanayake</title>
 <!-- InstanceEndEditable -->
 <LINK REL="SHORTCUT ICON" HREF="images/favicon.ico"/>
  <script src="css/pencil%20arts%20new%20site_files/ga.js" async="" type="text/javascript"></script><script src="css/pencil%20arts%20new%20site_files/a" type="text/javascript" async=""></script><script src="css/pencil%20arts%20new%20site_files/tc.js" type="text/javascript" async=""></script><script language="javascript">
@@ -158,29 +158,18 @@ body {
 <!-- InstanceBeginEditable name="head" -->
 <style type="text/css">
 <!--
-#wrraper #body #main_outer #module_02_banners #emf-form table {
+#wrraper #body #main_outer #module_02_banners #emf-container-outer #emf-container #emf-form #emf-form-instruction #emf-form-title {
 	text-align: center;
 }
-#wrraper #body #main_outer #module_02_banners {
-	text-align: justify;
-}
-#wrraper #body #main_outer #module_02_banners #emf-form table {
-	text-align: left;
-}
-#wrraper #body #main_outer #module_02_banners #emf-form table {
+#wrraper #body #main_outer #module_02_banners #emf-container-outer #emf-container #emf-form #emf-form-instruction #emf-form-title {
 	text-align: center;
 }
-#wrraper #body #main_outer #module_02_banners #emf-form table {
-	text-align: center;
-}
-#wrraper #body #main_outer #module_02_banners #emf-form table tr td font b {
-	text-align: center;
-}
-#wrraper #body #main_outer #module_02_banners #emf-form table tr td font b {
+#wrraper #body #main_outer #module_02_banners #emf-container-outer #emf-container #emf-form ul #emf-li-recaptcha div noscript iframe {
 	text-align: center;
 }
 -->
 </style>
+<link href="style new.css" rel="stylesheet" type="text/css" />
 <!-- InstanceEndEditable -->
 <script type="text/javascript">
 
@@ -271,164 +260,123 @@ body {
                 
                 <!-- New Area -->
 <h1><!-- InstanceBeginEditable name="MainContent" -->
-              <div id="module_02_banners"><div style="width:430px; float:left; height:auto;">
-              
-                <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '279865152627',
-          cookie     : true,
-          xfbml      : true,
-          version    : 'v3.1'
-        });
-
-        FB.getLoginStatus(function(response) {
-            statusChangeCallback(response);
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-
-       function statusChangeCallback(response){
-         if(response.status === 'connected'){
-           console.log('Logged in and authenticated');
-           setElements(true);
-           testAPI();
-         } else {
-           console.log('Not authenticated');
-           setElements(false);
-         }
-       }
-
-      function checkLoginState() {
-        FB.getLoginStatus(function(response) {
-          statusChangeCallback(response);
-        });
-      }
-
-      function testAPI(){
-        FB.api('/me?fields=name,email,birthday,location', function(response){
-          if(response && !response.error){
-            //console.log(response);
-            buildProfile(response);
-          }
-
-          FB.api('/me/feed', function(response){
-            if(response && !response.error){
-              buildFeed(response);
-            }
-          });
-        })
-      }
-
-      function buildProfile(user){
-        let profile = `
-          <h3>${user.name}</h3>
-          <ul class="list-group">
-            <li class="list-group-item">User ID: ${user.id}</li>
-            <li class="list-group-item">Email: ${user.email}</li>
-            <li class="list-group-item">Birthday: ${user.birthday}</li>
-            <li class="list-group-item">Location: ${user.location.name}</li>
-           
-          </ul>
-        `;
-
-        document.getElementById('profile').innerHTML = profile;
-      }
-
-      function buildFeed(feed){
-        let output = '<h3>Latest Posts</h3>';
-        for(let i in feed.data){
-          if(feed.data[i].message){
-            output += `
-              <div class="well">
-                ${feed.data[i].message} <span>${feed.data[i].created_time}</span>
-              </div>
-            `;
-          }
-        }
-
-        document.getElementById('feed').innerHTML = output;
-      }
-
-      function setElements(isLoggedIn){
-        if(isLoggedIn){
-          document.getElementById('logout').style.display = 'block';
-          document.getElementById('profile').style.display = 'block';
-          document.getElementById('feed').style.display = 'block';
-          document.getElementById('fb-btn').style.display = 'none';
-          document.getElementById('heading').style.display = 'none';
-        } else {
-          document.getElementById('logout').style.display = 'none';
-          document.getElementById('profile').style.display = 'none';
-          document.getElementById('feed').style.display = 'none';
-          document.getElementById('fb-btn').style.display = 'block';
-          document.getElementById('heading').style.display = 'block';
-        }
-      }
-
-      function logout(){
-        FB.logout(function(response){
-          setElements(false);
-        });
-      }
-    </script>
-
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          
-          <a class="navbar-brand" href="#">Welcome To Pencilarts</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
-            <fb:login-button
-              id="fb-btn"
-              scope="public_profile,email,user_birthday,user_location,user_posts"
-
-              onlogin="checkLoginState();">
-            </fb:login-button>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-
-    <div class="container">
-      <h3 id="heading">Log in to view your profile</h3>
-      <div id="profile"></div>
-      <div id="feed"></div>
-    </div>
-              
-              
-              </div><div style="width:515px; float:right; height:auto;"></div></div>
+              <div id="module_02_banners"><a href="pricing.html"><img src="images/order.gif" width="948" height="150" alt="order now" /></a></div>
               <div id="module_02_banners"><link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" />
-<link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/theme_css/Azc5IS0e94mebc5gwvcJep" />
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-<script type="text/javascript">
+  <link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/theme_css/e817WaXHhV7bBl9f4" />
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript">
 if (typeof jQuery == 'undefined'){
     document.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-1.4.4.min.js' type='text/javascript'%3E%3C/script%3E"));
 }
 </script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
-<script type="text/javascript">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+  <script type="text/javascript">
 if (typeof $.ui == 'undefined'){
     document.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-ui-1.7.2.custom.min.js' type='text/javascript'%3E%3C/script%3E"));
 }
 </script>
-<script type="text/javascript" src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
-<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Azc5IS0e94mebc5gwvcJep" name="emf-form">
-</form><br />
-<div style="text-align:left"></div><script type="text/javascript">
+  <script type="text/javascript" src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script>
+  <div id="emf-container-outer">
+    <div id="emf-container">
+      <div id="emf-logo">
+  <h4>To obtain an estimate on your portrait, please send in your photographs </h4>
+  <h4>These   can be scanned and emailed (high resolution preferred - ie: 300dpi) For   best results make sure your photos are taken at the subject's eye-level   and as sharp as possible. The more information I have to work with, the   more lifelike the end results.</h4>
+  <h4> To See basic Pricing go to Pricing tab<br />
+  </h4>
+<p></p>
+        </div>
+      <form id="emf-form" class="topLabel" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/e817WaXHhV7bBl9f4" name="emf-form">
+        <div id="emf-form-instruction" class="emf-head-widget">
+          <div id="emf-form-title" class="emf-bold">
+            Order Your Drawings From Pencilarts.lk
+            </div>
+          <div id="emf-form-description"></div>
+          </div>
+        <ul>
+          <li id="emf-li-0" class="emf-li-field emf-field-text data_container" style="text-align:">
+            <label class="emf-label-desc" for="element_0">Name <span>*</span></label>
+            <div class="emf-div-field">
+              <input id="element_0" name="element_0" value="" size="30" type="text" class="validate[required]" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-1" class="emf-li-field emf-field-email data_container" style="text-align:">
+            <label class="emf-label-desc" for="element_1">Email <span>*</span></label>
+            <div class="emf-div-field">
+              <input id="element_1" name="element_1" class="validate[required,custom[email]]" value="" size="30" type="text" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-2" class="emf-li-field emf-field-text data_container" style="text-align:">
+            <label class="emf-label-desc" for="element_2">Subject <span>*</span></label>
+            <div class="emf-div-field">
+              <input id="element_2" name="element_2" value="" size="30" type="text" class="validate[required]" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-3" class="emf-li-field emf-field-url data_container" style="text-align:left">
+            <label class="emf-label-desc" for="element_3">Web Site</label>
+            <div class="emf-div-field">
+              <input id="element_3" name="element_3" class="validate[optional,funcCall[url_ex,optional]]" value="" size="30" type="text" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-4" class="emf-li-field emf-field-phone data_container" style="text-align:left">
+            <label class="emf-label-desc" for="element_4">Phone</label>
+            <div class="emf-div-field">
+              <input id="element_4" name="element_4" class="validate[optional,custom[telephone]]" value="" size="30" type="text" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-5" class="emf-li-field emf-field-textarea data_container" style="text-align:">
+            <label class="emf-label-desc" for="element_5">Message <span>*</span></label>
+            <div class="emf-div-field">
+              <textarea id="element_5" name="element_5" cols="60" rows="10" class="validate[required]">
+</textarea>
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-6" class="emf-li-field emf-field-file data_container" style="text-align:left">
+            <label class="emf-label-desc" for="element_6">File Upload</label>
+            <div class="emf-div-field">
+              <input id="element_6" name="element_6" class="validate[optional]" type="file" />
+              </div>
+            <div class="emf-clear"></div>
+            </li>
+          <li id="emf-li-recaptcha">
+            <div>
+              <script type="text/javascript">
+//<![CDATA[
+            var RecaptchaOptions = {
+                theme: 'clean',
+                custom_theme_widget: 'emf-recaptcha_widget'
+                };
+            //]]>
+            </script> <script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9">
+</script> <noscript><iframe src="https://www.google.com/recaptcha/api/noscript?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9" height="300" width="500" frameborder="0"></iframe><br />
+  <textarea name="recaptcha_challenge_field" rows="3" cols="40">
+</textarea> <input type="hidden" name="recaptcha_response_field" value="manual_challenge" /></noscript>
+              </div><script type="text/javascript">
+//<![CDATA[
+                                        $(function(){
+                                                $('#recaptcha_response_field').addClass('validate[required]');
+                                        });
+          //]]>
+          </script>
+            </li>
+          <li id="emf-li-post-button" class="middle">
+            <input value="Send" type="submit" />
+            </li>
+          </ul><input name="element_counts" value="7" type="hidden" /> <input name="embed" value="forms" type="hidden" />
+        </form>
+      </div>
+  </div>
+  <a href="pricing.html">See The Pricing On Pricing tab</a><br />
+  <div style="text-align:center">
+    <font face="Verdana" size="2" color="#000000">Powered by </font><span style="position: relative; padding-left: 3px; bottom: -5px;"><img src=
+  "http://www.emailmeform.com/builder/images/footer-logo.png" /></span><font face="Verdana" size="2" color="#000000">EMF</font> <a style="text-decoration:none;" href="http://www.emailmeform.com/"
+  target="_blank"><font face="Verdana" size="2" color="#000000">Forms Builder</font></a><br />
+</div><script type="text/javascript">
 //<![CDATA[
 var EMF_Safari_Captcha = (function(){
         this.isChrome = (/chrome/.test(navigator.userAgent.toLowerCase()));
@@ -488,9 +436,19 @@ EMF_jQuery(window).load(function(){
                         <iframe src="http://www.youtube.com/subscribe_widget?p=pencilartslk" style="overflow: hidden; height: 100px; width:250px; border: 0;" scrolling="No" frameborder="0"></iframe>
                       </div>
                       <div style="width:476px; float:left; height:100px;"><a href="order.html"><img src="images/ad 01 119x100.gif" width="119" height="100" alt="ads" /></a><img src="images/ads 119x100 2.gif" width="119" height="100" /><a href="order.html"><img src="images/baby art.jpg" width="119" height="100" alt="baby art" /></a><a href="order.html"><img src="images/wedding couple.jpg" width="119" height="100" alt="weding art" /></a></div>
-                      <p>&nbsp;</p>
-                    </div>
+                      </div>
                   </div>
+                  <div style="width:726px; float:left; height:auto;"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-7062088625478445";
+/* pencilarts other pages */
+google_ad_slot = "5567757796";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
                 </div>
                 <div id="module_01_right">
                   <div id="module_01_right_image_outer"><a href="http://www.flixya.com/user/Cricket_lanka"><img src="images/cricketlanka2.gif" width="220" height="60" alt="cricket lanka" /></a></div>
@@ -499,10 +457,9 @@ EMF_jQuery(window).load(function(){
                   <div id="module_01_right_image_outer"></div>
                   <div id="module_01_right_image_outer"></div>
                   <div id="module_01_right_image_outer"></div>
-                  <div id="module_01_right_image_outer"></div>
                 </div>
               </div>
-              
+          
                	  <div id="bottom_module_center_outer"><img src="images/ads 380x60 2.gif" width="380" height="60" /><img src="images/ads 380x60 2.gif" width="380" height="60" /></div>
                	  
               <div id="module_02">
