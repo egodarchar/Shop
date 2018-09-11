@@ -196,6 +196,15 @@ body {
   })();
 
 </script>
+	
+	<style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+    </style>
+	
 </head>
 
 <body onload="MM_preloadImages('images/Menubuttons/homeup.png','images/Menubuttons/Homeover.png','images/Menubuttons/latestdrawingsup.png','images/Menubuttons/latestdrawingover.png','images/Menubuttons/Pricingup.png','images/Menubuttons/pricingover.png','images/Menubuttons/contactup.png','images/Menubuttons/contactover.png')">
@@ -272,7 +281,7 @@ body {
                 <!-- New Area -->
 <h1><!-- InstanceBeginEditable name="MainContent" -->
               <div id="module_02_banners"><div style="width:430px; float:left; height:auto;">
-                <table width="950" border="0" cellpadding="2" cellspacing="0" bgcolor="#799B5E" style="text-align:left;">
+                <table width="445" border="0" cellpadding="2" cellspacing="0" bgcolor="#799B5E" style="text-align:left;">
                   <tr>
                     <td colspan="2"><font face="Verdana" size="2" color="#000000"><b style="font-size:20px; text-align: center;">Welcome To Pencil Arts.lk</b><br />
                       <label style="font-size:15px;"><span style="text-align: left"></span><span style="text-align: center"></span>all about pencil drawings...<br />
@@ -282,7 +291,7 @@ body {
                   </tr>
                   <tr valign="top">
                     <td width="85" align="left" id="td_element_label_0" style="text-align: center"><font face="Verdana" size="2" color="#000000"><b>Name</b></font> <span style="color:red;"><small>*</small></span></td>
-                    <td width="853" id="td_element_field_0" style="text-align: left"><table cellpadding='0' cellspacing='0' border='0'>
+                    <td width="415" id="td_element_field_0" style="text-align: left"><table cellpadding='0' cellspacing='0' border='0'>
                       <tr>
                         <td align='center' style='padding-left:0;padding-right:3px;'><input style='width:60px;' value='' id='element_0_2' name='element_0[]' type='text' class='validate[required]' />
                           <br />
@@ -408,7 +417,37 @@ EMF_jQuery(window).load(function(){
 });
 
 //]]>
-</script></div>
+</script>
+													 
+
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -41.286461, lng: 174.776230};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmkHZ1gtGqJWmCElmZJnWeRwT2LiWyE5c&callback=initMap">
+    </script>											 
+													 
+													 
+													 
+													 
+													 
+													 
+													 
+													 </div>
+													 
+													 
               <div id="module_01">
                 <div id="module_01_left">
                   <div id="module_01_left_banner_02">
